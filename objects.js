@@ -1,9 +1,9 @@
 var playlist = {
-  john_lennon: "Let it be"
+  "John Lennon" : "Let it be"
 };
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist.artistName = songTitle
+  playlist[artistName] = songTitle
 }
 
 function removeFromPlaylist(playlist, artistName){
